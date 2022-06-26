@@ -1,0 +1,2 @@
+document.getElementById("btnFirst").onclick=function(){document.getElementById("content__first").classList.toggle("content-option"),this.classList.toggle("rotate")},document.getElementById("btnSecond").onclick=function(){document.getElementById("content__second").classList.toggle("content-option"),this.classList.toggle("rotate")},document.getElementById("btnThird").onclick=function(){document.getElementById("content__third").classList.toggle("content-option"),this.classList.toggle("rotate")};
+//# sourceMappingURL=index.2bc4ad53.js.map
