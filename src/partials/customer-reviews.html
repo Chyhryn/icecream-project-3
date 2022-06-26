@@ -1,53 +1,104 @@
-<article сlass="reviews">
-  <!--  <div class="reviews__container">
-    <div class="reviews__block">
-      <p class="reviews__text">
-        Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam
-        sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis
-        in nibh vel risus.
-      </p>
-    </div>
-    <div class="reviews__elem">
-      <ul class="reviews__list">
-        <li class="reviews__item"></li>
-        <li class="reviews__item"></li>
-        <li class="reviews__item"></li>
-      </ul>
-      <p class="reviews__user">emily, los angeles</p>
-    </div>
-  </div> -->
-
-  <!-- Slider main container -->
-  <div class="swiper">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide">
-        <div class="reviews__block">
-          <p class="reviews__text">
-            Nullam viverra consectetuer. Quisque cursus et, porttitor risus.
-            Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem
-            ipsum primis in nibh vel risus.
-          </p>
+<section class="section">
+  <article сlass="reviews ">
+    <div class="container">
+      <!-- Slider main container -->
+      <div class="swiper mySwiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="reviews__img">
+              <picture>
+                <source
+                  srcset="
+                    ./images/reviews/review-1.png    1x,
+                    ./images/reviews/review-1@2x.png 2x
+                  "
+                />
+                <img
+                  src="./images/reviews/review-1.png"
+                  alt="emily, los angeles"
+                />
+              </picture>
+            </div>
+            <div class="reviews__block">
+              <p class="reviews__text">
+                Nullam viverra consectetuer. Quisque cursus et, porttitor risus.
+                Aliquam sem. In hendrerit nulla quam nunc, accumsan congue.
+                Lorem ipsum primis in nibh vel risus.
+              </p>
+            </div>
+            <ul class="reviews__list">
+              <li class="reviews__item"></li>
+              <li class="reviews__item"></li>
+              <li class="reviews__item"></li>
+            </ul>
+            <p class="reviews__user">emily, los angeles</p>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__img">
+              <picture>
+                <source
+                  srcset="
+                    ./images/reviews/review-2.png    1x,
+                    ./images/reviews/review-2@2x.png 2x
+                  "
+                />
+                <img
+                  src="./images/reviews/review-2.png"
+                  alt="emily, los angeles"
+                />
+              </picture>
+            </div>
+            <div class="reviews__block">
+              <p class="reviews__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Expedita ullam, fuga nisi illum illo consequatur rem quia
+                accusantium autem provident, maxime officia inventore laborum
+                porro dicta repellendus. Nobis, autem quasi.
+              </p>
+            </div>
+            <ul class="reviews__list">
+              <li class="reviews__item"></li>
+              <li class="reviews__item"></li>
+              <li class="reviews__item"></li>
+            </ul>
+            <p class="reviews__user">emily, los angeles</p>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__img">
+              <picture>
+                <source
+                  srcset="
+                    ./images/reviews/review-3.png    1x,
+                    ./images/reviews/review-3@2x.png 2x
+                  "
+                />
+                <img
+                  src="./images/reviews/review-3.png"
+                  alt="emily, los angeles"
+                />
+              </picture>
+            </div>
+            <div class="reviews__block">
+              <p class="reviews__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Expedita ullam, fuga nisi illum illo consequatur rem quia
+                accusantium autem provident, maxime officia inventore laborum
+                porro dicta repellendus. Nobis, autem quasi.
+              </p>
+            </div>
+            <ul class="reviews__list">
+              <li class="reviews__item"></li>
+              <li class="reviews__item"></li>
+              <li class="reviews__item"></li>
+            </ul>
+            <p class="reviews__user">emily, los angeles</p>
+          </div>
         </div>
-        <ul class="reviews__list">
-          <li class="reviews__item"></li>
-          <li class="reviews__item"></li>
-          <li class="reviews__item"></li>
-        </ul>
-        <p class="reviews__user">emily, los angeles</p>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
       </div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
     </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
-  </div>
-</article>
+  </article>
+</section>
